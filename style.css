@@ -1,51 +1,54 @@
 body {
-    background-color: powderblue;
-  }
-
-.navigation_buttons {
-    background-color: tomato;
-    color: white;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-}
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: initial;
+  background: #E3E3E3;
+  background: -moz-linear-gradient(top, #E3E3E3 0%, #49899C 100%);
+  background: -webkit-linear-gradient(top, #E3E3E3 0%, #49899C 100%);
+  background: linear-gradient(to bottom, #E3E3E3 0%, #49899C 100%);
 }
 
 .button {
-    border: 2px solid gray;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font: outline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(134, 134, 134);
+  color: rgb(0, 0, 0);
+  padding: 15px 15px;
+  text-align: center;
+  vertical-align: center;
+  text-decoration: none;
+  display: inline;
+  font: outline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin: 0px 2px;
+  cursor: pointer;
+}
 
-  .home_button {
-    border: 2px solid gray;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font: outline;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+.home_button {
+  vertical-align: center;
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font: outline;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+#inner {
+  display: inline-block;
+  margin: 0 auto;
+  border: 0px solid black;
+  vertical-align: center;
+  width: 35%;
+  text-align: center;
+}
+
+#outer {
+  border: 0px solid red;
+  width:100%;
+  vertical-align: center;
+  height: 15%;
+  text-align: center;
+}
 
 h1 {
 color: blue;
