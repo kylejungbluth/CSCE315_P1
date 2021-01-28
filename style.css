@@ -5,6 +5,11 @@ body {
   background: linear-gradient(to bottom, #E3E3E3 0%, #49899C 100%);
 }
 
+.paragraph {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .button {
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(134, 134, 134);
@@ -48,6 +53,14 @@ body {
   vertical-align: center;
   height: 15%;
   text-align: center;
+}
+
+#container{
+  width: 60%;
+}
+#floated{
+  float: left;
+  width: 40%;
 }
 
 h1 {
