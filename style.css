@@ -8,6 +8,12 @@ body {
 .paragraph {
   color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  width: 40%;
+  margin: 0 auto;
+  word-wrap: break-word;
+  overflow: hidden;
+  float: left;
 }
 
 .button {
@@ -28,7 +34,7 @@ body {
 
 .home_button {
   vertical-align: center;
-  color: blue;
+  color: rgb(18, 18, 31);
   text-align: center;
   text-decoration: none;
   display: inline;
@@ -43,7 +49,7 @@ body {
   margin: 0 auto;
   border: 0px solid black;
   vertical-align: center;
-  width: 35%;
+  width: 40%;
   text-align: center;
 }
 
@@ -56,7 +62,7 @@ body {
 }
 
 #container{
-  width: 60%;
+  width: 100%;
 }
 #floated{
   float: left;
@@ -64,7 +70,9 @@ body {
 }
 
 h1 {
-color: blue;
+color: rgb(53, 53, 53);
+font-size: 30px;
+text-align: center;
 }
 h3 {
 color: blue;
