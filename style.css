@@ -16,6 +16,17 @@ body {
   float: left;
 }
 
+.paragraph2 {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  width:80%;
+  margin: 0 auto;
+  word-wrap: break-word;
+  overflow: hidden;
+  float: center;
+}
+
 .button {
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(134, 134, 134);
@@ -79,4 +90,54 @@ color: blue;
 }
 p {
 color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: rgba(102, 102, 102, 0.123);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  background: rgba(204, 204, 204, 0.37);
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f12c;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: rgba(119, 119, 119, 0.158);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
